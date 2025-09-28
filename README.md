@@ -14,7 +14,7 @@ Provides a simple pipeline for preprocessing handwritten images 🖥️
 
 🚀 Live Demo / Preview
 
-Add screenshots or GIFs of normalized handwriting here!
+Try it Live Now  https://huggingface.co/spaces/Pranay2007/GAN-For-Prescriptions
 
 
 How to Use
