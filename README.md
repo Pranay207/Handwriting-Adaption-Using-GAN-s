@@ -1,37 +1,52 @@
 ✍️ Handwriting Style Adaptation Using GANs
 
-Normalize diverse handwritten styles, such as doctor prescriptions, using Generative Adversarial Networks (GANs) to improve OCR recognition accuracy.
+Normalize diverse handwritten styles, such as doctor prescriptions, using GANs to improve OCR recognition accuracy.
 
 📸 Overview
 
-Doctors’ handwriting varies widely, making prescriptions and notes hard to read. This project:
+Doctors’ handwriting often varies widely, making prescriptions and notes difficult to read. This project:
 
-Adapts and normalizes diverse handwriting styles 🖌️
+Normalizes diverse handwriting styles 🖌️
 
 Improves OCR recognition accuracy 🎯
 
-Provides a complete preprocessing pipeline for handwritten text 🖥️
+Provides a simple pipeline for preprocessing handwritten images 🖥️
+
+🚀 Live Demo / Preview
+
+Add screenshots or GIFs of normalized handwriting here!
+
+
+How to Use
+
+Collect handwritten images (doctor prescriptions, forms, etc.) 📄
+
+Normalize handwriting styles using the GAN model 🎨
+
+Apply OCR to extract text from normalized images 🔹
+
+Optionally, run the Streamlit demo for interactive testing 🖥️
 
 🛠️ Tech Stack
 
-Python 3.x – Core logic and preprocessing 🐍
+Python 3.x – Core logic and processing 🐍
 
-PyTorch / TensorFlow – GAN model for handwriting adaptation 🔥
+PyTorch / TensorFlow – GAN for handwriting style adaptation 🔥
 
 OpenCV / NumPy / Matplotlib – Image preprocessing & visualization 🎨
 
 Tesseract OCR / CNN-LSTM – Handwriting recognition 🖋️
 
-Streamlit (optional) – Interactive demo interface 🚀
+Streamlit (optional) – Web demo interface 🚀
 
 🧠 How It Works
 
-Prepare Dataset: Collect handwritten images (e.g., prescriptions) and place them in data/raw/.
+Prepare Dataset: Place handwritten images in data/raw/ 📁
 
-Train GAN: Normalize handwriting styles across the dataset 🎨.
+Train GAN: Learn to normalize diverse handwriting styles 🎨
 
-Apply GAN: Generate normalized versions of handwritten images 🔹.
+Apply GAN: Generate normalized versions of handwritten images 🔹
 
-OCR Recognition: Extract text from normalized images using Tesseract or custom CNN-LSTM 🔹.
+OCR Recognition: Extract text from normalized images using Tesseract or CNN-LSTM 🔹
 
-Output: Extracted text can be used for further processing or translation.
+Output: Get accurate, readable text for digital use ✨.
