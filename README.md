@@ -1,4 +1,4 @@
-✍️ Handwriting Style Adaptation Using GANs
+🩺 RxGAN: Prescription Handwriting Normalization
 
 Normalize diverse handwritten styles, such as doctor prescriptions, using GANs to improve OCR recognition accuracy.
 
