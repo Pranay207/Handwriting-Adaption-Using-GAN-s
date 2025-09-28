@@ -1,0 +1,8 @@
+torch
+torchvision
+gradio
+pytesseract
+opencv-python
+pillow
+transformers
+sentencepiece
