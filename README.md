@@ -14,10 +14,10 @@ Provides a simple pipeline for preprocessing handwritten images 🖥️
 
 🚀 Live Demo / Preview
 
-Try it Live Now  https://huggingface.co/spaces/Pranay2007/GAN-For-Prescriptions
+Try it Live Now  👉 https://huggingface.co/spaces/Pranay2007/GAN-For-Prescriptions
 
 
-How to Use
+ How to Use
 
 Collect handwritten images (doctor prescriptions, forms, etc.) 📄
 
