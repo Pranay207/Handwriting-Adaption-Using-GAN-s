@@ -34,9 +34,6 @@ Doctors’ handwriting often varies widely, making prescriptions and notes **dif
 3. 🔹 Apply OCR to extract text from normalized images  
 4. 🖥️ (Optional) Run the Streamlit demo for interactive testing  
 
-```bash
-# Run the Streamlit demo
-streamlit run app.py
 
 🛠️ Tech Stack
 
