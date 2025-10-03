@@ -35,31 +35,30 @@ Doctors’ handwriting often varies widely, making prescriptions and notes **dif
 4. 🖥️ (Optional) Run the Streamlit demo for interactive testing  
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack  
 
-🐍 Python 3.x – Core programming
+| Tool / Library | Purpose |
+|----------------|---------|
+| 🐍 **Python 3.x** | Core programming language |
+| 🔥 **PyTorch / TensorFlow** | GAN-based handwriting style adaptation |
+| 🎨 **OpenCV / NumPy / Matplotlib** | Image preprocessing & visualization |
+| 🖋️ **Tesseract OCR / CNN-LSTM** | Handwriting recognition |
+| 🚀 **Streamlit (optional)** | Interactive web demo interface |
 
-🔥 PyTorch / TensorFlow – GAN-based handwriting style adaptation
+---
 
-🎨 OpenCV / NumPy / Matplotlib – Image preprocessing & visualization
+## 🧠 How It Works  
 
-🖋️ Tesseract OCR / CNN-LSTM – Handwriting recognition
+1. 📁 **Prepare Dataset** → Place handwritten images in `data/raw/`  
+2. 🎨 **Train GAN** → Learn to normalize diverse handwriting styles  
+3. 🔹 **Apply GAN** → Generate normalized versions of handwritten images  
+4. 🔹 **OCR Recognition** → Extract text using **Tesseract** or **CNN-LSTM**  
+5. ✨ **Output** → Get accurate, readable text for digital use  
 
-🚀 Streamlit (optional) – Interactive web demo
+---
 
+## 📜 License  
 
-🧠 How It Works
+This project is licensed under the **MIT License**.  
 
-📁 Prepare Dataset → Place handwritten images in data/raw/
-
-🎨 Train GAN → Learn to normalize diverse handwriting styles
-
-🔹 Apply GAN → Generate normalized versions of handwritten images
-
-🔹 OCR Recognition → Extract text using Tesseract or CNN-LSTM
-
-✨ Output → Accurate, readable text for digital use
-
-📜 License
-
-This project is licensed under the MIT License.
+<p align="center">⚡ Built with AI to make handwriting readable 🩺</p>
