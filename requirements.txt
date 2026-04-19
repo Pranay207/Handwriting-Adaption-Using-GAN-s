@@ -1,0 +1,10 @@
+numpy==1.26.4
+torch
+torchvision
+gradio
+pytesseract
+opencv-python
+pillow
+transformers
+sentencepiece
+easyocr
