@@ -1,4 +1,4 @@
-# DoctorScribble2Text
+
 
 [![CI](https://github.com/Pranay207/Handwriting-Adaption-Using-GAN-s/actions/workflows/ci.yml/badge.svg)](https://github.com/Pranay207/Handwriting-Adaption-Using-GAN-s/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
