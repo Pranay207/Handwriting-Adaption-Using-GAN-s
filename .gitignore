@@ -2,3 +2,8 @@ __pycache__/
 *.pyc
 .gradio/
 sample.png
+
+.venv/
+gradio.*.log
+data/
+models/**/*.pt

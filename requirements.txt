@@ -5,6 +5,9 @@ gradio
 pytesseract
 opencv-python
 pillow
-transformers
+transformers==4.36.2
+tokenizers==0.15.2
+huggingface-hub==0.36.0
 sentencepiece
+pip-system-certs; platform_system == 'Windows'
 easyocr
