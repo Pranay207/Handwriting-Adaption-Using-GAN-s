@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/Pranay207
+    about: Report vulnerabilities or exposed medical data privately.

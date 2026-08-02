@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest a focused improvement
+title: '[Feature] '
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Explain the user or research problem.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the behavior and expected validation.
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Medical or privacy impact
+      options:
+        - None
+        - Low
+        - Significant
+        - Unknown
+    validations:
+      required: true

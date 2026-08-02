@@ -5,5 +5,6 @@ sample.png
 
 .venv/
 gradio.*.log
-data/
+data/*
+!data/README.md
 models/**/*.pt
